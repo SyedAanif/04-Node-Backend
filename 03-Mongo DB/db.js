@@ -4,7 +4,6 @@
 // Schema: Data types and blueprint in MongoDB Document collection
 
 const mongoose = require("mongoose");
-const { MONGO_DB_SRV } = require(".");
 
 const connectDB = async (MONGO_DB_SRV) => {
   try {
